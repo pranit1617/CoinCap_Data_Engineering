@@ -7,7 +7,7 @@ import psycopg2 as pg
 from psycopg2.extras import execute_values
 from datetime import datetime, timezone
 
-api_key = '2223f667-c39a-40bd-9203-67033ee002de'
+api_key = your_api_key
 url = 'https://api.coincap.io/v2/assets'
 headers = {
     "Authorization": f"Bearer {api_key}",
